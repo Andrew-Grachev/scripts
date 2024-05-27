@@ -1,0 +1,687 @@
+lsb:acpi-support - Start some power management scripts
+lsb:acpid - Start the Advanced Configuration and Power Interface daemon
+lsb:alsa-utils - Restore and store ALSA driver settings
+lsb:anacron - Run anacron jobs
+lsb:auditd - Audit Daemon
+lsb:avahi-daemon - Avahi mDNS/DNS-SD Daemon
+lsb:certmonger - Certmonger
+lsb:console-setup.sh - Set console font and keymap
+lsb:corosync - corosync cluster framework
+lsb:cron - Regular background program processing daemon
+lsb:cups - CUPS Printing spooler and server
+lsb:dbus - D-Bus systemwide message bus
+lsb:exim4 - exim Mail Transport Agent
+lsb:fly-dm - X display manager for Fly
+lsb:hwclock.sh - Sync hardware and system clock time.
+lsb:ipmievd - IPMI event daemon
+lsb:keyboard-setup.sh - Set the console keyboard layout
+lsb:kmod - Load the modules listed in /etc/modules.
+lsb:logd - logd
+lsb:lvm2 - lvm2
+lsb:lvm2-lvmetad - LVM2 metadata daemon
+lsb:lvm2-lvmpolld - LVM2 poll daemon
+lsb:multipath-tools - multipath daemon
+lsb:networking - Raise network interfaces.
+lsb:ntp - Start NTP daemon
+lsb:openhpid - Start OpenHPI daemon at boot time
+lsb:openipmi - OpenIPMI Driver init script
+lsb:openvpn - Openvpn VPN service
+lsb:pacemaker - Starts and stops Pacemaker Cluster Manager.
+lsb:pcsd - Starts and stops Pacemaker & Corosync daemon
+lsb:plymouth - Stop plymouth during boot and start it on shutdown
+lsb:plymouth-log - Inform plymouth that /var/log is writable
+lsb:postgresql - PostgreSQL RDBMS server
+lsb:procps - Configure kernel parameters at boottime
+lsb:quota - Enable user quota
+lsb:quotarpc - Starts rpc process for remote quota handling
+lsb:rsyslog - enhanced syslogd
+lsb:saned - SANE network scanner server
+lsb:smartmontools - SMART monitoring daemon
+lsb:ssh - OpenBSD Secure Shell server
+lsb:sssd - System Security Services Daemon
+lsb:sudo - Provide limited super user privileges to specific users
+lsb:sysstat - Start/stop sysstat's sadc
+lsb:udev - Start systemd-udevd, populate /dev and load drivers.
+lsb:ufw - start firewall
+lsb:x11-common - set up the X server and ICE socket directories
+lsb:zabbix-agent - Start zabbix-agent daemon
+ocf:heartbeat:anything - Manages an arbitrary service
+ocf:heartbeat:AoEtarget - Manages ATA-over-Ethernet (AoE) target exports
+ocf:heartbeat:apache - Manages an Apache Web server instance
+ocf:heartbeat:asterisk - Manages an Asterisk PBX
+ocf:heartbeat:AudibleAlarm - Emits audible beeps at a configurable interval
+ocf:heartbeat:awseip
+ocf:heartbeat:awsvip
+ocf:heartbeat:ClusterMon - Runs crm_mon in the background, recording the cluster status to an HTML file
+ocf:heartbeat:clvm - clvmd
+ocf:heartbeat:conntrackd - This resource agent manages conntrackd
+ocf:heartbeat:CTDB - CTDB Resource Agent
+ocf:heartbeat:db2 - Resource Agent that manages an IBM DB2 LUW databases in Standard role as primitive or in HADR roles as master/slave configuration. Multiple partitions are supported.
+ocf:heartbeat:Delay - Waits for a defined timespan
+ocf:heartbeat:dhcpd - Chrooted ISC DHCP server resource agent.
+ocf:heartbeat:dnsupdate - IP take-over via dynamic DNS update
+ocf:heartbeat:docker - Docker container resource agent.
+ocf:heartbeat:Dummy - Example stateless resource agent
+ocf:heartbeat:eDir88 - Manages a Novell eDirectory directory server
+ocf:heartbeat:ethmonitor - Monitors network interfaces
+ocf:heartbeat:Evmsd - Controls clustered EVMS volume management (deprecated)
+ocf:heartbeat:EvmsSCC - Manages EVMS Shared Cluster Containers (SCCs) (deprecated)
+ocf:heartbeat:exportfs - Manages NFS exports
+ocf:heartbeat:Filesystem - Manages filesystem mounts
+ocf:heartbeat:fio - fio IO load generator
+ocf:heartbeat:galera - Manages a galara instance
+ocf:heartbeat:garbd - Manages a galera arbitrator instance
+ocf:heartbeat:ICP - Manages an ICP Vortex clustered host drive
+ocf:heartbeat:ids - Manages an Informix Dynamic Server (IDS) instance
+ocf:heartbeat:iface-bridge - Manages Bridge network interfaces.
+ocf:heartbeat:iface-vlan - Manages VLAN network interfaces.
+ocf:heartbeat:IPaddr - Manages virtual IPv4 addresses (portable version)
+ocf:heartbeat:IPaddr2 - Manages virtual IPv4 and IPv6 addresses (Linux specific version)
+ocf:heartbeat:IPsrcaddr - Manages the preferred source address for outgoing IP packets
+ocf:heartbeat:IPv6addr - Manages IPv6 aliases
+ocf:heartbeat:iscsi - Manages a local iSCSI initiator and its connections to iSCSI targets
+ocf:heartbeat:iSCSILogicalUnit - Manages iSCSI Logical Units (LUs)
+ocf:heartbeat:iSCSITarget - iSCSI target export agent
+ocf:heartbeat:jboss - Manages a JBoss application server instance
+ocf:heartbeat:kamailio - Resource agent for Kamailio
+ocf:heartbeat:ldirectord - Wrapper OCF Resource Agent for ldirectord
+ocf:heartbeat:LinuxSCSI - Enables and disables SCSI devices through the kernel SCSI hot-plug subsystem (deprecated)
+ocf:heartbeat:LVM - Controls the availability of an LVM Volume Group
+ocf:heartbeat:lxc - Manages LXC containers
+ocf:heartbeat:MailTo - Notifies recipients by email in the event of resource takeover
+ocf:heartbeat:ManageRAID - Manages RAID devices
+ocf:heartbeat:ManageVE - Manages an OpenVZ Virtual Environment (VE)
+ocf:heartbeat:mysql - Manages a MySQL database instance
+ocf:heartbeat:mysql-proxy - Manages a MySQL Proxy instance
+ocf:heartbeat:nagios - Nagios resource agent
+ocf:heartbeat:named - Manages a named server
+ocf:heartbeat:nfsnotify - sm-notify reboot notifications
+ocf:heartbeat:nfsserver - Manages an NFS server
+ocf:heartbeat:nginx - Manages an Nginx web/proxy server instance
+ocf:heartbeat:oracle - Manages an Oracle Database instance
+ocf:heartbeat:oralsnr - Manages an Oracle TNS listener
+ocf:heartbeat:pgagent - Controls pgagent
+ocf:heartbeat:pgsql - Manages a PostgreSQL database instance
+ocf:heartbeat:pingd - Monitors connectivity to specific hosts or IP addresses ("ping nodes") (deprecated)
+ocf:heartbeat:portblock - Block and unblocks access to TCP and UDP ports
+ocf:heartbeat:postfix - Manages a highly available Postfix mail server instance
+ocf:heartbeat:pound - Manage a Pound instance
+ocf:heartbeat:proftpd - OCF Resource Agent compliant FTP script.
+ocf:heartbeat:Pure-FTPd - Manages a Pure-FTPd FTP server instance
+ocf:heartbeat:rabbitmq-cluster - rabbitmq clustered
+ocf:heartbeat:Raid1 - Manages Linux software RAID (MD) devices on shared storage
+ocf:heartbeat:redis - Redis server
+ocf:heartbeat:Route - Manages network routes
+ocf:heartbeat:rsyncd - Manages an rsync daemon
+ocf:heartbeat:rsyslog - rsyslog resource agent
+ocf:heartbeat:SAPDatabase - Manages a SAP database instance as an HA resource.
+ocf:heartbeat:SAPInstance - Manages a SAP instance as an HA resource.
+ocf:heartbeat:scsi2reservation - scsi-2 reservation
+ocf:heartbeat:SendArp - Broadcasts unsolicited ARP announcements
+ocf:heartbeat:ServeRAID - Enables and disables shared ServeRAID merge groups
+ocf:heartbeat:sfex - Manages exclusive access to shared storage using Shared Disk File EXclusiveness (SF-EX)
+ocf:heartbeat:sg_persist - Manages SCSI PERSISTENT RESERVATIONS
+ocf:heartbeat:slapd - Manages a Stand-alone LDAP Daemon (slapd) instance
+ocf:heartbeat:SphinxSearchDaemon - Manages the Sphinx search daemon.
+ocf:heartbeat:Squid - Manages a Squid proxy server instance
+ocf:heartbeat:Stateful - Example stateful resource agent
+ocf:heartbeat:symlink - Manages a symbolic link
+ocf:heartbeat:SysInfo - Records various node attributes in the CIB
+ocf:heartbeat:syslog-ng - Syslog-ng resource agent
+ocf:heartbeat:tomcat - Manages a Tomcat servlet environment instance
+ocf:heartbeat:varnish - Manage a Varnish instance
+ocf:heartbeat:VIPArip - Manages a virtual IP address through RIP2
+ocf:heartbeat:VirtualDomain - Manages virtual domains through the libvirt virtualization framework
+ocf:heartbeat:vmware - Manages VMWare Server 2.0 virtual machines
+ocf:heartbeat:vsftpd - Manages an vsftpd
+ocf:heartbeat:WAS - Manages a WebSphere Application Server instance
+ocf:heartbeat:WAS6 - Manages a WebSphere Application Server 6 instance
+ocf:heartbeat:WinPopup - Sends an SMB notification message to selected hosts
+ocf:heartbeat:Xen - Manages Xen unprivileged domains (DomUs)
+ocf:heartbeat:Xinetd - Manages a service of Xinetd
+ocf:heartbeat:zabbixserver - Zabbix server resource agent
+ocf:pacemaker:attribute - Manages a node attribute
+ocf:pacemaker:ClusterMon - Runs crm_mon in the background, recording the cluster status to an HTML file
+ocf:pacemaker:controld - DLM Agent for cluster file systems
+ocf:pacemaker:Dummy - Example stateless resource agent
+ocf:pacemaker:HealthCPU - System health CPU usage
+ocf:pacemaker:HealthSMART - SMART health status
+ocf:pacemaker:ifspeed - Network interface speed monitor
+ocf:pacemaker:o2cb - OCFS2 daemon resource agent
+ocf:pacemaker:ping - node connectivity
+ocf:pacemaker:pingd - pingd resource agent
+ocf:pacemaker:remote - remote resource agent
+ocf:pacemaker:Stateful - Example stateful resource agent
+ocf:pacemaker:SysInfo - SysInfo resource agent
+ocf:pacemaker:SystemHealth - SystemHealth resource agent
+ocf:redhat:apache.sh - Defines an Apache web server
+ocf:redhat:ASEHAagent.sh - Sybase ASE Failover Instance
+ocf:redhat:bind-mount.sh - Defines a bind mount.
+ocf:redhat:clusterfs.sh - Defines a cluster file system mount.
+ocf:redhat:db2.sh - Resource Agent that manages an IBM DB2 LUW databases in Standard role with multiple partition support.
+ocf:redhat:fs.sh - Defines a file system mount.
+ocf:redhat:ip.sh - This is an IP address.
+ocf:redhat:lvm.sh - LVM Failover script
+ocf:redhat:mysql.sh - Defines a MySQL database server
+ocf:redhat:named.sh - Defines an instance of named server
+ocf:redhat:netfs.sh - Defines an NFS/CIFS file system mount.
+ocf:redhat:nfsclient.sh - Defines an NFS client.
+ocf:redhat:nfsexport.sh - This defines an NFS export.
+ocf:redhat:nfsserver.sh - This defines an NFS server resource.
+ocf:redhat:openldap.sh - Defines an Open LDAP server
+ocf:redhat:oracledb.sh - Oracle 10g/11g Failover Instance
+ocf:redhat:oradg.sh - Oracle Data Guard Failover Instance
+ocf:redhat:orainstance.sh - Oracle 10g Failover Instance
+ocf:redhat:oralistener.sh - Oracle 10g Listener Instance
+ocf:redhat:postgres-8.sh - Defines a PostgreSQL server
+ocf:redhat:samba.sh - Dynamic smbd/nmbd resource agent
+ocf:redhat:SAPDatabase - SAP database resource agent
+ocf:redhat:SAPInstance - SAP instance resource agent
+ocf:redhat:script.sh - LSB-compliant init script as a clustered resource.
+ocf:redhat:service.sh - Defines a service (resource group).
+ocf:redhat:smb.sh - Dynamic smbd/nmbd resource agent
+ocf:redhat:tomcat-5.sh - Defines a Tomcat server
+ocf:redhat:tomcat-6.sh - Defines a Tomcat server
+ocf:redhat:vm.sh - Defines a Virtual Machine
+service:-.mount - systemd unit file for -.mount
+service:acpi-support - Start some power management scripts
+service:acpi-support - Start some power management scripts
+service:acpid - Start the Advanced Configuration and Power Interface daemon
+service:acpid - Start the Advanced Configuration and Power Interface daemon
+service:acpid.path - systemd unit file for acpid.path
+service:acpid.socket - systemd unit file for acpid.socket
+service:alsa-restore - systemd unit file for alsa-restore
+service:alsa-state - systemd unit file for alsa-state
+service:alsa-utils - Restore and store ALSA driver settings
+service:alsa-utils - Restore and store ALSA driver settings
+service:anacron - Run anacron jobs
+service:anacron - Run anacron jobs
+service:anacron.timer - systemd unit file for anacron.timer
+service:apt-daily - systemd unit file for apt-daily
+service:apt-daily-upgrade - systemd unit file for apt-daily-upgrade
+service:apt-daily-upgrade.timer - systemd unit file for apt-daily-upgrade.timer
+service:apt-daily.timer - systemd unit file for apt-daily.timer
+service:armdl - Start/stop ArmDl
+service:astra-orientation - systemd unit file for astra-orientation
+service:auditd - Audit Daemon
+service:auditd - Audit Daemon
+service:avahi-daemon - Avahi mDNS/DNS-SD Daemon
+service:avahi-daemon - Avahi mDNS/DNS-SD Daemon
+service:avahi-daemon.socket - systemd unit file for avahi-daemon.socket
+service:boot-efi.mount - systemd unit file for boot-efi.mount
+service:boot.mount - systemd unit file for boot.mount
+service:bootlogd - systemd unit file for bootlogd
+service:bootlogs - systemd unit file for bootlogs
+service:bootmisc - systemd unit file for bootmisc
+service:certmonger - Certmonger
+service:certmonger - Certmonger
+service:checkfs - systemd unit file for checkfs
+service:checkroot - systemd unit file for checkroot
+service:checkroot-bootclean - systemd unit file for checkroot-bootclean
+service:console-getty - systemd unit file for console-getty
+service:console-setup - systemd unit file for console-setup
+service:console-setup.sh - Set console font and keymap
+service:corosync - corosync cluster framework
+service:corosync - corosync cluster framework
+service:cron - Regular background program processing daemon
+service:cron - Regular background program processing daemon
+service:cryptdisks - systemd unit file for cryptdisks
+service:cryptdisks-early - systemd unit file for cryptdisks-early
+service:cups - CUPS Printing spooler and server
+service:cups - CUPS Printing spooler and server
+service:cups.path - systemd unit file for cups.path
+service:cups.socket - systemd unit file for cups.socket
+service:dbus - D-Bus systemwide message bus
+service:dbus - D-Bus systemwide message bus
+service:dbus-org.freedesktop.Avahi - systemd unit file for dbus-org.freedesktop.Avahi
+service:dbus-org.freedesktop.hostname1 - systemd unit file for dbus-org.freedesktop.hostname1
+service:dbus-org.freedesktop.locale1 - systemd unit file for dbus-org.freedesktop.locale1
+service:dbus-org.freedesktop.login1 - systemd unit file for dbus-org.freedesktop.login1
+service:dbus-org.freedesktop.network1 - systemd unit file for dbus-org.freedesktop.network1
+service:dbus-org.freedesktop.resolve1 - systemd unit file for dbus-org.freedesktop.resolve1
+service:dbus.socket - systemd unit file for dbus.socket
+service:debug-shell - systemd unit file for debug-shell
+service:dev-hugepages.mount - systemd unit file for dev-hugepages.mount
+service:dev-mqueue.mount - systemd unit file for dev-mqueue.mount
+service:display-manager - systemd unit file for display-manager
+service:dm-event - systemd unit file for dm-event
+service:dm-event.socket - systemd unit file for dm-event.socket
+service:emergency - systemd unit file for emergency
+service:exim4 - exim Mail Transport Agent
+service:exim4 - exim Mail Transport Agent
+service:fly-dm - X display manager for Fly
+service:fly-dm - X display manager for Fly
+service:fuse - systemd unit file for fuse
+service:getty-static - systemd unit file for getty-static
+service:halt - systemd unit file for halt
+service:hostname - systemd unit file for hostname
+service:hwclock - systemd unit file for hwclock
+service:hwclock.sh - Sync hardware and system clock time.
+service:iio-sensor-proxy - systemd unit file for iio-sensor-proxy
+service:initrd-cleanup - systemd unit file for initrd-cleanup
+service:initrd-parse-etc - systemd unit file for initrd-parse-etc
+service:initrd-switch-root - systemd unit file for initrd-switch-root
+service:initrd-udevadm-cleanup-db - systemd unit file for initrd-udevadm-cleanup-db
+service:ipmidrv - systemd unit file for ipmidrv
+service:ipmievd - IPMI event daemon
+service:ipmievd - IPMI event daemon
+service:keyboard-setup - systemd unit file for keyboard-setup
+service:keyboard-setup.sh - Set the console keyboard layout
+service:killprocs - systemd unit file for killprocs
+service:kmod - Load the modules listed in /etc/modules.
+service:kmod - Load the modules listed in /etc/modules.
+service:kmod-static-nodes - systemd unit file for kmod-static-nodes
+service:libflygetexe-bin - systemd unit file for libflygetexe-bin
+service:logd - logd
+service:logd - logd
+service:lvm2 - lvm2
+service:lvm2 - lvm2
+service:lvm2-lvmetad - LVM2 metadata daemon
+service:lvm2-lvmetad - LVM2 metadata daemon
+service:lvm2-lvmetad.socket - systemd unit file for lvm2-lvmetad.socket
+service:lvm2-lvmpolld - LVM2 poll daemon
+service:lvm2-lvmpolld - LVM2 poll daemon
+service:lvm2-lvmpolld.socket - systemd unit file for lvm2-lvmpolld.socket
+service:lvm2-monitor - systemd unit file for lvm2-monitor
+service:module-init-tools - systemd unit file for module-init-tools
+service:motd - systemd unit file for motd
+service:mountall - systemd unit file for mountall
+service:mountall-bootclean - systemd unit file for mountall-bootclean
+service:mountdevsubfs - systemd unit file for mountdevsubfs
+service:mountkernfs - systemd unit file for mountkernfs
+service:mountnfs - systemd unit file for mountnfs
+service:mountnfs-bootclean - systemd unit file for mountnfs-bootclean
+service:multipath-tools - multipath daemon
+service:multipath-tools - multipath daemon
+service:multipath-tools-boot - systemd unit file for multipath-tools-boot
+service:multipathd - systemd unit file for multipathd
+service:multipathd.socket - systemd unit file for multipathd.socket
+service:networking - Raise network interfaces.
+service:networking - Raise network interfaces.
+service:ntp - Start NTP daemon
+service:ntp - Start NTP daemon
+service:oddjobd - systemd unit file for oddjobd
+service:openhpid - Start OpenHPI daemon at boot time
+service:openhpid - Start OpenHPI daemon at boot time
+service:openipmi - OpenIPMI Driver init script
+service:openipmi - OpenIPMI Driver init script
+service:openvpn - Openvpn VPN service
+service:openvpn - Openvpn VPN service
+service:opt.mount - systemd unit file for opt.mount
+service:pacemaker - Starts and stops Pacemaker Cluster Manager.
+service:pacemaker - Starts and stops Pacemaker Cluster Manager.
+service:parlogd - systemd unit file for parlogd
+service:parsec - systemd unit file for parsec
+service:parsec-kiosk2 - systemd unit file for parsec-kiosk2
+service:parsecfs.mount - systemd unit file for parsecfs.mount
+service:pcsd - Starts and stops Pacemaker & Corosync daemon
+service:pcsd - Starts and stops Pacemaker & Corosync daemon
+service:plog - systemd unit file for plog
+service:plymouth - Stop plymouth during boot and start it on shutdown
+service:plymouth - Stop plymouth during boot and start it on shutdown
+service:plymouth-halt - systemd unit file for plymouth-halt
+service:plymouth-kexec - systemd unit file for plymouth-kexec
+service:plymouth-log - Inform plymouth that /var/log is writable
+service:plymouth-log - Inform plymouth that /var/log is writable
+service:plymouth-poweroff - systemd unit file for plymouth-poweroff
+service:plymouth-quit - systemd unit file for plymouth-quit
+service:plymouth-quit-wait - systemd unit file for plymouth-quit-wait
+service:plymouth-read-write - systemd unit file for plymouth-read-write
+service:plymouth-reboot - systemd unit file for plymouth-reboot
+service:plymouth-start - systemd unit file for plymouth-start
+service:plymouth-switch-root - systemd unit file for plymouth-switch-root
+service:polkit - systemd unit file for polkit
+service:postgresql - PostgreSQL RDBMS server
+service:postgresql - PostgreSQL RDBMS server
+service:proc-sys-fs-binfmt_misc.mount - systemd unit file for proc-sys-fs-binfmt_misc.mount
+service:procps - Configure kernel parameters at boottime
+service:procps - Configure kernel parameters at boottime
+service:quota - Enable user quota
+service:quota - Enable user quota
+service:quotaon - systemd unit file for quotaon
+service:quotarpc - Starts rpc process for remote quota handling
+service:quotarpc - Starts rpc process for remote quota handling
+service:rc - systemd unit file for rc
+service:rc-local - systemd unit file for rc-local
+service:rc.local - systemd unit file for rc.local
+service:rcS - systemd unit file for rcS
+service:reboot - systemd unit file for reboot
+service:rescue - systemd unit file for rescue
+service:rmnologin - systemd unit file for rmnologin
+service:rsyslog - enhanced syslogd
+service:rsyslog - enhanced syslogd
+service:saned - SANE network scanner server
+service:saned - SANE network scanner server
+service:saned.socket - systemd unit file for saned.socket
+service:sendsigs - systemd unit file for sendsigs
+service:single - systemd unit file for single
+service:smartd - systemd unit file for smartd
+service:smartmontools - SMART monitoring daemon
+service:smartmontools - SMART monitoring daemon
+service:ssh - OpenBSD Secure Shell server
+service:ssh - OpenBSD Secure Shell server
+service:ssh.socket - systemd unit file for ssh.socket
+service:sshd - systemd unit file for sshd
+service:sssd - System Security Services Daemon
+service:sssd - System Security Services Daemon
+service:sssd-secrets - systemd unit file for sssd-secrets
+service:sssd-secrets.socket - systemd unit file for sssd-secrets.socket
+service:stop-bootlogd - systemd unit file for stop-bootlogd
+service:stop-bootlogd-single - systemd unit file for stop-bootlogd-single
+service:sudo - Provide limited super user privileges to specific users
+service:sudo - Provide limited super user privileges to specific users
+service:suspend-to-hibernate - systemd unit file for suspend-to-hibernate
+service:suspend-to-poweroff - systemd unit file for suspend-to-poweroff
+service:swap-wiper - systemd unit file for swap-wiper
+service:sys-fs-fuse-connections.mount - systemd unit file for sys-fs-fuse-connections.mount
+service:sys-kernel-config.mount - systemd unit file for sys-kernel-config.mount
+service:sys-kernel-debug.mount - systemd unit file for sys-kernel-debug.mount
+service:syslog - systemd unit file for syslog
+service:syslog.socket - systemd unit file for syslog.socket
+service:sysstat - Start/stop sysstat's sadc
+service:sysstat - Start/stop sysstat's sadc
+service:systemd-ask-password-console - systemd unit file for systemd-ask-password-console
+service:systemd-ask-password-console.path - systemd unit file for systemd-ask-password-console.path
+service:systemd-ask-password-plymouth - systemd unit file for systemd-ask-password-plymouth
+service:systemd-ask-password-plymouth.path - systemd unit file for systemd-ask-password-plymouth.path
+service:systemd-ask-password-wall - systemd unit file for systemd-ask-password-wall
+service:systemd-ask-password-wall.path - systemd unit file for systemd-ask-password-wall.path
+service:systemd-binfmt - systemd unit file for systemd-binfmt
+service:systemd-exit - systemd unit file for systemd-exit
+service:systemd-fsck-root - systemd unit file for systemd-fsck-root
+service:systemd-fsckd - systemd unit file for systemd-fsckd
+service:systemd-fsckd.socket - systemd unit file for systemd-fsckd.socket
+service:systemd-halt - systemd unit file for systemd-halt
+service:systemd-hibernate - systemd unit file for systemd-hibernate
+service:systemd-hostnamed - systemd unit file for systemd-hostnamed
+service:systemd-hwdb-update - systemd unit file for systemd-hwdb-update
+service:systemd-hybrid-sleep - systemd unit file for systemd-hybrid-sleep
+service:systemd-initctl - systemd unit file for systemd-initctl
+service:systemd-initctl.socket - systemd unit file for systemd-initctl.socket
+service:systemd-journal-flush - systemd unit file for systemd-journal-flush
+service:systemd-journald - systemd unit file for systemd-journald
+service:systemd-journald-audit.socket - systemd unit file for systemd-journald-audit.socket
+service:systemd-journald-dev-log.socket - systemd unit file for systemd-journald-dev-log.socket
+service:systemd-journald.socket - systemd unit file for systemd-journald.socket
+service:systemd-kexec - systemd unit file for systemd-kexec
+service:systemd-localed - systemd unit file for systemd-localed
+service:systemd-logind - systemd unit file for systemd-logind
+service:systemd-machine-id-commit - systemd unit file for systemd-machine-id-commit
+service:systemd-modules-load - systemd unit file for systemd-modules-load
+service:systemd-networkd - systemd unit file for systemd-networkd
+service:systemd-networkd-wait-online - systemd unit file for systemd-networkd-wait-online
+service:systemd-networkd.socket - systemd unit file for systemd-networkd.socket
+service:systemd-poweroff - systemd unit file for systemd-poweroff
+service:systemd-quotacheck - systemd unit file for systemd-quotacheck
+service:systemd-random-seed - systemd unit file for systemd-random-seed
+service:systemd-reboot - systemd unit file for systemd-reboot
+service:systemd-remount-fs - systemd unit file for systemd-remount-fs
+service:systemd-resolved - systemd unit file for systemd-resolved
+service:systemd-rfkill - systemd unit file for systemd-rfkill
+service:systemd-rfkill.socket - systemd unit file for systemd-rfkill.socket
+service:systemd-suspend - systemd unit file for systemd-suspend
+service:systemd-sysctl - systemd unit file for systemd-sysctl
+service:systemd-timesyncd - systemd unit file for systemd-timesyncd
+service:systemd-tmpfiles-clean - systemd unit file for systemd-tmpfiles-clean
+service:systemd-tmpfiles-clean.timer - systemd unit file for systemd-tmpfiles-clean.timer
+service:systemd-tmpfiles-setup - systemd unit file for systemd-tmpfiles-setup
+service:systemd-tmpfiles-setup-dev - systemd unit file for systemd-tmpfiles-setup-dev
+service:systemd-udev-settle - systemd unit file for systemd-udev-settle
+service:systemd-udev-trigger - systemd unit file for systemd-udev-trigger
+service:systemd-udevd - systemd unit file for systemd-udevd
+service:systemd-udevd-control.socket - systemd unit file for systemd-udevd-control.socket
+service:systemd-udevd-kernel.socket - systemd unit file for systemd-udevd-kernel.socket
+service:systemd-update-utmp - systemd unit file for systemd-update-utmp
+service:systemd-update-utmp-runlevel - systemd unit file for systemd-update-utmp-runlevel
+service:systemd-user-sessions - systemd unit file for systemd-user-sessions
+service:udev - Start systemd-udevd, populate /dev and load drivers.
+service:udev - Start systemd-udevd, populate /dev and load drivers.
+service:udisks2 - systemd unit file for udisks2
+service:ufw - start firewall
+service:ufw - start firewall
+service:umountfs - systemd unit file for umountfs
+service:umountnfs - systemd unit file for umountnfs
+service:umountroot - systemd unit file for umountroot
+service:upower - systemd unit file for upower
+service:urandom - systemd unit file for urandom
+service:var-log.mount - systemd unit file for var-log.mount
+service:wpa_supplicant - systemd unit file for wpa_supplicant
+service:x11-common - set up the X server and ICE socket directories
+service:x11-common - set up the X server and ICE socket directories
+service:zabbix-agent - Start zabbix-agent daemon
+service:zabbix-agent - Start zabbix-agent daemon
+systemd:-.mount - systemd unit file for -.mount
+systemd:acpi-support - systemd unit file for acpi-support
+systemd:acpid - systemd unit file for acpid
+systemd:acpid.path - systemd unit file for acpid.path
+systemd:acpid.socket - systemd unit file for acpid.socket
+systemd:alsa-restore - systemd unit file for alsa-restore
+systemd:alsa-state - systemd unit file for alsa-state
+systemd:alsa-utils - systemd unit file for alsa-utils
+systemd:anacron - systemd unit file for anacron
+systemd:anacron.timer - systemd unit file for anacron.timer
+systemd:apt-daily - systemd unit file for apt-daily
+systemd:apt-daily-upgrade - systemd unit file for apt-daily-upgrade
+systemd:apt-daily-upgrade.timer - systemd unit file for apt-daily-upgrade.timer
+systemd:apt-daily.timer - systemd unit file for apt-daily.timer
+systemd:armdl - systemd unit file for armdl
+systemd:astra-orientation - systemd unit file for astra-orientation
+systemd:auditd - systemd unit file for auditd
+systemd:autovt@ - systemd unit file for autovt@
+systemd:avahi-daemon - systemd unit file for avahi-daemon
+systemd:avahi-daemon.socket - systemd unit file for avahi-daemon.socket
+systemd:boot-efi.mount - systemd unit file for boot-efi.mount
+systemd:boot.mount - systemd unit file for boot.mount
+systemd:bootlogd - systemd unit file for bootlogd
+systemd:bootlogs - systemd unit file for bootlogs
+systemd:bootmisc - systemd unit file for bootmisc
+systemd:certmonger - systemd unit file for certmonger
+systemd:checkfs - systemd unit file for checkfs
+systemd:checkroot - systemd unit file for checkroot
+systemd:checkroot-bootclean - systemd unit file for checkroot-bootclean
+systemd:console-getty - systemd unit file for console-getty
+systemd:console-setup - systemd unit file for console-setup
+systemd:container-getty@ - systemd unit file for container-getty@
+systemd:corosync - systemd unit file for corosync
+systemd:cron - systemd unit file for cron
+systemd:cryptdisks - systemd unit file for cryptdisks
+systemd:cryptdisks-early - systemd unit file for cryptdisks-early
+systemd:cups - systemd unit file for cups
+systemd:cups.path - systemd unit file for cups.path
+systemd:cups.socket - systemd unit file for cups.socket
+systemd:dbus - systemd unit file for dbus
+systemd:dbus-org.freedesktop.Avahi - systemd unit file for dbus-org.freedesktop.Avahi
+systemd:dbus-org.freedesktop.hostname1 - systemd unit file for dbus-org.freedesktop.hostname1
+systemd:dbus-org.freedesktop.locale1 - systemd unit file for dbus-org.freedesktop.locale1
+systemd:dbus-org.freedesktop.login1 - systemd unit file for dbus-org.freedesktop.login1
+systemd:dbus-org.freedesktop.network1 - systemd unit file for dbus-org.freedesktop.network1
+systemd:dbus-org.freedesktop.resolve1 - systemd unit file for dbus-org.freedesktop.resolve1
+systemd:dbus.socket - systemd unit file for dbus.socket
+systemd:debug-shell - systemd unit file for debug-shell
+systemd:dev-hugepages.mount - systemd unit file for dev-hugepages.mount
+systemd:dev-mqueue.mount - systemd unit file for dev-mqueue.mount
+systemd:display-manager - systemd unit file for display-manager
+systemd:dm-event - systemd unit file for dm-event
+systemd:dm-event.socket - systemd unit file for dm-event.socket
+systemd:emergency - systemd unit file for emergency
+systemd:exim4 - systemd unit file for exim4
+systemd:fly-dm - systemd unit file for fly-dm
+systemd:fuse - systemd unit file for fuse
+systemd:getty-static - systemd unit file for getty-static
+systemd:getty@ - systemd unit file for getty@
+systemd:halt - systemd unit file for halt
+systemd:hostname - systemd unit file for hostname
+systemd:hwclock - systemd unit file for hwclock
+systemd:ifup@ - systemd unit file for ifup@
+systemd:iio-sensor-proxy - systemd unit file for iio-sensor-proxy
+systemd:initrd-cleanup - systemd unit file for initrd-cleanup
+systemd:initrd-parse-etc - systemd unit file for initrd-parse-etc
+systemd:initrd-switch-root - systemd unit file for initrd-switch-root
+systemd:initrd-udevadm-cleanup-db - systemd unit file for initrd-udevadm-cleanup-db
+systemd:ipmidrv - systemd unit file for ipmidrv
+systemd:ipmievd - systemd unit file for ipmievd
+systemd:keyboard-setup - systemd unit file for keyboard-setup
+systemd:killprocs - systemd unit file for killprocs
+systemd:kmod - systemd unit file for kmod
+systemd:kmod-static-nodes - systemd unit file for kmod-static-nodes
+systemd:libflygetexe-bin - systemd unit file for libflygetexe-bin
+systemd:logd - systemd unit file for logd
+systemd:lvm2 - systemd unit file for lvm2
+systemd:lvm2-lvmetad - systemd unit file for lvm2-lvmetad
+systemd:lvm2-lvmetad.socket - systemd unit file for lvm2-lvmetad.socket
+systemd:lvm2-lvmpolld - systemd unit file for lvm2-lvmpolld
+systemd:lvm2-lvmpolld.socket - systemd unit file for lvm2-lvmpolld.socket
+systemd:lvm2-monitor - systemd unit file for lvm2-monitor
+systemd:lvm2-pvscan@ - systemd unit file for lvm2-pvscan@
+systemd:module-init-tools - systemd unit file for module-init-tools
+systemd:motd - systemd unit file for motd
+systemd:mountall - systemd unit file for mountall
+systemd:mountall-bootclean - systemd unit file for mountall-bootclean
+systemd:mountdevsubfs - systemd unit file for mountdevsubfs
+systemd:mountkernfs - systemd unit file for mountkernfs
+systemd:mountnfs - systemd unit file for mountnfs
+systemd:mountnfs-bootclean - systemd unit file for mountnfs-bootclean
+systemd:multipath-tools - systemd unit file for multipath-tools
+systemd:multipath-tools-boot - systemd unit file for multipath-tools-boot
+systemd:multipathd - systemd unit file for multipathd
+systemd:multipathd.socket - systemd unit file for multipathd.socket
+systemd:networking - systemd unit file for networking
+systemd:ntp - systemd unit file for ntp
+systemd:oddjobd - systemd unit file for oddjobd
+systemd:openhpid - systemd unit file for openhpid
+systemd:openipmi - systemd unit file for openipmi
+systemd:openvpn - systemd unit file for openvpn
+systemd:opt.mount - systemd unit file for opt.mount
+systemd:pacemaker - systemd unit file for pacemaker
+systemd:parlogd - systemd unit file for parlogd
+systemd:parsec - systemd unit file for parsec
+systemd:parsec-kiosk2 - systemd unit file for parsec-kiosk2
+systemd:parsecfs.mount - systemd unit file for parsecfs.mount
+systemd:pcsd - systemd unit file for pcsd
+systemd:plog - systemd unit file for plog
+systemd:plymouth - systemd unit file for plymouth
+systemd:plymouth-halt - systemd unit file for plymouth-halt
+systemd:plymouth-kexec - systemd unit file for plymouth-kexec
+systemd:plymouth-log - systemd unit file for plymouth-log
+systemd:plymouth-poweroff - systemd unit file for plymouth-poweroff
+systemd:plymouth-quit - systemd unit file for plymouth-quit
+systemd:plymouth-quit-wait - systemd unit file for plymouth-quit-wait
+systemd:plymouth-read-write - systemd unit file for plymouth-read-write
+systemd:plymouth-reboot - systemd unit file for plymouth-reboot
+systemd:plymouth-start - systemd unit file for plymouth-start
+systemd:plymouth-switch-root - systemd unit file for plymouth-switch-root
+systemd:polkit - systemd unit file for polkit
+systemd:postgresql - systemd unit file for postgresql
+systemd:postgresql@ - systemd unit file for postgresql@
+systemd:proc-sys-fs-binfmt_misc.mount - systemd unit file for proc-sys-fs-binfmt_misc.mount
+systemd:procps - systemd unit file for procps
+systemd:quota - systemd unit file for quota
+systemd:quotaon - systemd unit file for quotaon
+systemd:quotarpc - systemd unit file for quotarpc
+systemd:rc - systemd unit file for rc
+systemd:rc-local - systemd unit file for rc-local
+systemd:rc.local - systemd unit file for rc.local
+systemd:rcS - systemd unit file for rcS
+systemd:reboot - systemd unit file for reboot
+systemd:rescue - systemd unit file for rescue
+systemd:rmnologin - systemd unit file for rmnologin
+systemd:rsyslog - systemd unit file for rsyslog
+systemd:saned - systemd unit file for saned
+systemd:saned.socket - systemd unit file for saned.socket
+systemd:saned@ - systemd unit file for saned@
+systemd:sendsigs - systemd unit file for sendsigs
+systemd:serial-getty@ - systemd unit file for serial-getty@
+systemd:single - systemd unit file for single
+systemd:smartd - systemd unit file for smartd
+systemd:smartmontools - systemd unit file for smartmontools
+systemd:ssh - systemd unit file for ssh
+systemd:ssh.socket - systemd unit file for ssh.socket
+systemd:ssh@ - systemd unit file for ssh@
+systemd:sshd - systemd unit file for sshd
+systemd:sssd - systemd unit file for sssd
+systemd:sssd-secrets - systemd unit file for sssd-secrets
+systemd:sssd-secrets.socket - systemd unit file for sssd-secrets.socket
+systemd:stop-bootlogd - systemd unit file for stop-bootlogd
+systemd:stop-bootlogd-single - systemd unit file for stop-bootlogd-single
+systemd:sudo - systemd unit file for sudo
+systemd:suspend-to-hibernate - systemd unit file for suspend-to-hibernate
+systemd:suspend-to-poweroff - systemd unit file for suspend-to-poweroff
+systemd:swap-wiper - systemd unit file for swap-wiper
+systemd:sys-fs-fuse-connections.mount - systemd unit file for sys-fs-fuse-connections.mount
+systemd:sys-kernel-config.mount - systemd unit file for sys-kernel-config.mount
+systemd:sys-kernel-debug.mount - systemd unit file for sys-kernel-debug.mount
+systemd:syslog - systemd unit file for syslog
+systemd:syslog.socket - systemd unit file for syslog.socket
+systemd:sysstat - systemd unit file for sysstat
+systemd:systemd-ask-password-console - systemd unit file for systemd-ask-password-console
+systemd:systemd-ask-password-console.path - systemd unit file for systemd-ask-password-console.path
+systemd:systemd-ask-password-plymouth - systemd unit file for systemd-ask-password-plymouth
+systemd:systemd-ask-password-plymouth.path - systemd unit file for systemd-ask-password-plymouth.path
+systemd:systemd-ask-password-wall - systemd unit file for systemd-ask-password-wall
+systemd:systemd-ask-password-wall.path - systemd unit file for systemd-ask-password-wall.path
+systemd:systemd-backlight@ - systemd unit file for systemd-backlight@
+systemd:systemd-binfmt - systemd unit file for systemd-binfmt
+systemd:systemd-exit - systemd unit file for systemd-exit
+systemd:systemd-fsck-root - systemd unit file for systemd-fsck-root
+systemd:systemd-fsck@ - systemd unit file for systemd-fsck@
+systemd:systemd-fsckd - systemd unit file for systemd-fsckd
+systemd:systemd-fsckd.socket - systemd unit file for systemd-fsckd.socket
+systemd:systemd-halt - systemd unit file for systemd-halt
+systemd:systemd-hibernate - systemd unit file for systemd-hibernate
+systemd:systemd-hibernate-resume@ - systemd unit file for systemd-hibernate-resume@
+systemd:systemd-hostnamed - systemd unit file for systemd-hostnamed
+systemd:systemd-hwdb-update - systemd unit file for systemd-hwdb-update
+systemd:systemd-hybrid-sleep - systemd unit file for systemd-hybrid-sleep
+systemd:systemd-initctl - systemd unit file for systemd-initctl
+systemd:systemd-initctl.socket - systemd unit file for systemd-initctl.socket
+systemd:systemd-journal-flush - systemd unit file for systemd-journal-flush
+systemd:systemd-journald - systemd unit file for systemd-journald
+systemd:systemd-journald-audit.socket - systemd unit file for systemd-journald-audit.socket
+systemd:systemd-journald-dev-log.socket - systemd unit file for systemd-journald-dev-log.socket
+systemd:systemd-journald.socket - systemd unit file for systemd-journald.socket
+systemd:systemd-kexec - systemd unit file for systemd-kexec
+systemd:systemd-localed - systemd unit file for systemd-localed
+systemd:systemd-logind - systemd unit file for systemd-logind
+systemd:systemd-machine-id-commit - systemd unit file for systemd-machine-id-commit
+systemd:systemd-modules-load - systemd unit file for systemd-modules-load
+systemd:systemd-networkd - systemd unit file for systemd-networkd
+systemd:systemd-networkd-wait-online - systemd unit file for systemd-networkd-wait-online
+systemd:systemd-networkd.socket - systemd unit file for systemd-networkd.socket
+systemd:systemd-poweroff - systemd unit file for systemd-poweroff
+systemd:systemd-quotacheck - systemd unit file for systemd-quotacheck
+systemd:systemd-random-seed - systemd unit file for systemd-random-seed
+systemd:systemd-reboot - systemd unit file for systemd-reboot
+systemd:systemd-remount-fs - systemd unit file for systemd-remount-fs
+systemd:systemd-resolved - systemd unit file for systemd-resolved
+systemd:systemd-rfkill - systemd unit file for systemd-rfkill
+systemd:systemd-rfkill.socket - systemd unit file for systemd-rfkill.socket
+systemd:systemd-suspend - systemd unit file for systemd-suspend
+systemd:systemd-sysctl - systemd unit file for systemd-sysctl
+systemd:systemd-timesyncd - systemd unit file for systemd-timesyncd
+systemd:systemd-tmpfiles-clean - systemd unit file for systemd-tmpfiles-clean
+systemd:systemd-tmpfiles-clean.timer - systemd unit file for systemd-tmpfiles-clean.timer
+systemd:systemd-tmpfiles-setup - systemd unit file for systemd-tmpfiles-setup
+systemd:systemd-tmpfiles-setup-dev - systemd unit file for systemd-tmpfiles-setup-dev
+systemd:systemd-udev-settle - systemd unit file for systemd-udev-settle
+systemd:systemd-udev-trigger - systemd unit file for systemd-udev-trigger
+systemd:systemd-udevd - systemd unit file for systemd-udevd
+systemd:systemd-udevd-control.socket - systemd unit file for systemd-udevd-control.socket
+systemd:systemd-udevd-kernel.socket - systemd unit file for systemd-udevd-kernel.socket
+systemd:systemd-update-utmp - systemd unit file for systemd-update-utmp
+systemd:systemd-update-utmp-runlevel - systemd unit file for systemd-update-utmp-runlevel
+systemd:systemd-user-sessions - systemd unit file for systemd-user-sessions
+systemd:udev - systemd unit file for udev
+systemd:udisks2 - systemd unit file for udisks2
+systemd:ufw - systemd unit file for ufw
+systemd:umountfs - systemd unit file for umountfs
+systemd:umountnfs - systemd unit file for umountnfs
+systemd:umountroot - systemd unit file for umountroot
+systemd:upower - systemd unit file for upower
+systemd:urandom - systemd unit file for urandom
+systemd:user@ - systemd unit file for user@
+systemd:var-log.mount - systemd unit file for var-log.mount
+systemd:wacom-inputattach@ - systemd unit file for wacom-inputattach@
+systemd:wpa_supplicant - systemd unit file for wpa_supplicant
+systemd:wpa_supplicant@ - systemd unit file for wpa_supplicant@
+systemd:x11-common - systemd unit file for x11-common
+systemd:zabbix-agent - systemd unit file for zabbix-agent

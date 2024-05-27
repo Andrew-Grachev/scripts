@@ -1,0 +1,20 @@
+Включить ресурс 
+pcs resource enable <Имя_ресурса>
+
+Выключить ресурс
+pcs resource disable <Имя_ресурса>
+
+Создание ресурса 
+pcs resource create <Имя_ресурса> service:postgresql op monitor interval=30s
+
+Создание правила работы двух ресурсов на одной ноде
+pcs constraint colocation add <Имя_ресурса_1> with <Имя_ресурса_2>
+
+Создание правила запуска ресурса Имя_ресурса_1 после Имя_ресурса_2
+pcs constraint order <Имя_ресурса_1> then <Имя_ресурса_2>
+
+Отправить ноду в standby
+pcs node standby c3n1.nivka.com
+
+Вернуть ноду из standby
+pcs node unstandby c3n1.nivka.com

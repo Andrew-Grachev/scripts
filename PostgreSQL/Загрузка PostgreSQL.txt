@@ -1,0 +1,40 @@
+-- Загрузка PostgreSQL 9.2 путем имитации интенсивной активности
+
+-- Создание таблицы для хранения случайных данных
+CREATE TABLE IF NOT EXISTS random_data (
+  id SERIAL PRIMARY KEY,
+  data TEXT
+);
+
+-- Вставка 10000000 строк случайных данных
+INSERT INTO random_data (data)
+SELECT  md5(random()::text) 
+FROM generate_series(1, 10000000);
+
+-- Имитация запросов к базе данных
+-- Цикл с 1000 итераций
+DO $$
+DECLARE
+  i INTEGER := 1;
+BEGIN
+  WHILE i <= 10000 LOOP
+
+    -- Выбор случайных записей из таблицы random_data
+    SELECT * FROM random_data ORDER BY random() LIMIT 100;
+
+    -- Имитация вставки новых записей
+    INSERT INTO random_data (data) VALUES (md5(random()::text));
+
+    -- Имитация обновления существующих записей
+    UPDATE random_data SET data = md5(random()::text) WHERE id = i;
+
+    -- Увеличение счетчика итераций
+    i := i + 1;
+
+  END LOOP;
+END $$;
+
+-- Удаление таблицы random_data
+DROP TABLE random_data;
+
+-- Конец скрипта

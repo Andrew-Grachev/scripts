@@ -5,8 +5,8 @@ DISM.exe /Online /Get-TargetEditions
 DISM /online /Set-Edition:ServerStandard /ProductKey:N69G4-B89J2-4G8F4-WWYCC-J464C /AcceptEula
 
 ## How To Activate 
-slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-slmgr /skms [server]:[port]
+slmgr /ipk N69G4-B89J2-4G8F4-WWYCC-J464C
+slmgr /skms kms.03k.org:1688
 slmgr /ato
 slmgr /dlv
 
